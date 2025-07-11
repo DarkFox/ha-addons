@@ -1,0 +1,5 @@
+name: Add-On Repository for Rook DarkFox's addons
+url: "https://github.com/darkfox/ha-addons"
+maintainer: Rook DarkFox
+description: |
+  This repository currently only contains the Games Done Quick Calendar Factory add-on.

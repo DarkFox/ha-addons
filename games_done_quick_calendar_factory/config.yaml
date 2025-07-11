@@ -1,0 +1,9 @@
+name: "GamesDoneQuickCalendarFactory"
+description: "A simple app that generates a Calendar feed of the Games Done Quick schedule."
+version: "2.7.15"
+slug: "games_done_quick_calendar_factory"
+init: false
+arch:
+  - amd64
+ports:
+  8081/tcp: 8081
