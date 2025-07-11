@@ -1,9 +1,24 @@
 name: "GamesDoneQuickCalendarFactory"
 description: "A simple app that generates a Calendar feed of the Games Done Quick schedule."
-version: "2.7.15"
 slug: "games_done_quick_calendar_factory"
-init: false
+url: https://github.com/Aldaviva/GamesDoneQuickCalendarFactory
+
+version: "2.7.15a"
+
 arch:
   - amd64
+
+options:
+  log_level: "Information"
+
+schema:
+  log_level: list(Trace|Debug|Information|Warning|Error|Critical)
+
 ports:
   8081/tcp: 8081
+
+watchdog: http://[HOST]:[PORT:8081]
+
+init: false
+startup: application
+boot: auto

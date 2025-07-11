@@ -7,6 +7,7 @@ RUN apk add --no-cache \
     gcompat \
     curl \
     tar \
+    jq \
     gzip \
     libstdc++ \
     libgcc
