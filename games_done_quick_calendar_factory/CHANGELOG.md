@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
+## [2.7.17] - 2025-07-13
+- Bump GamesDoneQuickCalendarFactory to version 2.7.17
+
 ## [2.7.16] - 2025-07-12
 
 ### Changed
