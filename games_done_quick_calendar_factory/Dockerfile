@@ -24,7 +24,7 @@ RUN  curl -sSL https://dot.net/v1/dotnet-install.sh -o /tmp/dotnet-install.sh \
 
 # Download and extract the latest release of GamesDoneQuickCalendarFactory
 RUN mkdir -p /opt/gdq_calendar_factory \
-    && curl -sSL https://github.com/Aldaviva/GamesDoneQuickCalendarFactory/releases/download/2.7.19/GamesDoneQuickCalendarFactory-linux-x64.zip -o /tmp/gdq_calendar_factory.zip \
+    && curl -sSL https://github.com/Aldaviva/GamesDoneQuickCalendarFactory/releases/download/2.7.20/GamesDoneQuickCalendarFactory-linux-x64.zip -o /tmp/gdq_calendar_factory.zip \
     && unzip /tmp/gdq_calendar_factory.zip -d /opt/gdq_calendar_factory/ \
     && ls -al /opt/gdq_calendar_factory \
     && chmod a+x /opt/gdq_calendar_factory/gamesdonequickcalendarfactory \

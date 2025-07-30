@@ -3,7 +3,7 @@ description: "A simple app that generates a Calendar feed of the Games Done Quic
 slug: "games_done_quick_calendar_factory"
 url: https://github.com/Aldaviva/GamesDoneQuickCalendarFactory
 
-version: "2.7.19"
+version: "2.7.20"
 
 arch:
   - amd64
